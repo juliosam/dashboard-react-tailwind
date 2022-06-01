@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return ( 
-    <div className="sidebar w-64 bg-gray-200">
+    <div className="sidebar w-64 pl-8 pt-4 br-gray">
       <ul>
         <li className="my-2">
           <Link to="/">Inicio</Link>

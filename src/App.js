@@ -17,7 +17,7 @@ const App = () => {
       <Navbar/>
       <div className="flex w-full h-screen">
         <Sidebar/>
-        <div className="w-full bg-green-200">
+        <div className="w-full bg-gray-200 font-bold">
           <Routes>
             <Route path="/" exact={true} element={<Home/>} />
             <Route path="/sales" exact={true} element={<Sales/>} />
