@@ -15,13 +15,13 @@ const App = () => {
   return (
     <Router>
       <Navbar/>
-      <div className="flex">
+      <div className="flex w-full h-screen">
         <Sidebar/>
-        <div className="content">
+        <div className="w-full bg-green-200">
           <Routes>
-            <Route path="/" exact={true} component={Home} />
-            <Route path="/sales" exact={true} component={Sales} />
-            <Route path="/clients" exact={true} component={Clients} />
+            <Route path="/" exact={true} element={<Home/>} />
+            <Route path="/sales" exact={true} element={<Sales/>} />
+            <Route path="/clients" exact={true} element={<Clients/>} />
           </Routes>
         </div>
       </div>
