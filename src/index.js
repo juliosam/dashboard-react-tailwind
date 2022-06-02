@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/main.css';
 import './assets/tailwind.css';
-
 import App from './App.js';
 
 ReactDOM.render(

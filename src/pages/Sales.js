@@ -1,9 +1,8 @@
 const Sales = () => {
-    return ( 
-        <div>
-          <p>Sales</p>
-        </div>
-     );
+  return ( 
+    <div>
+      <p>Sales</p>
+    </div>
+   );
 }
- 
 export default Sales;
