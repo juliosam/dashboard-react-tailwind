@@ -449,6 +449,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 700;
 }
 
+.border-r-1-gray{
+  border-right: 1px solid gray;
+}
+
+.border-b-1-gray{
+  border-bottom: 1px solid gray;
+}
+
 .btn {
   border-radius: 0.25rem;
   padding-top: 0.5rem;
